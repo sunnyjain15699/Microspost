@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "REST Resource Naming Guide",
+      "body": "In REST, primary data representation is called Resource.  Having a strong and consistent REST resource naming strategy – will definitely prove your one of the best design decisions in long term.",
+      "id": 6
+    },
+    {
+      "title": "REST – Content Negotiation",
+      "body": "Learning REST in pieces is one thing, while applying all those learned concepts into real application design is completely another challenge. In this tutorial, we will learn to design REST APIs for a network based application. Please note that the takeaway from this whole exercise is the learning of how to apply REST principles in design process.\n\nSteps in designing REST Services\nIdentify Object Model\nCreate Model URIs\nDetermine Representations\nAssign HTTP Methods\nMore Actions\n\nIdentify Object Model\nThe very first step in designing a REST API based application is – identifying the objects which will be presented as resources.\n\nFor a network based application, object modeling is pretty much simpler. There can be many things such as devices, managed entities, routers, modems etc. For simplicity sake, we will consider only two resources i.e.\n\nDevices\nConfigurations\nHere configuration is sub-resource of a device. A device can have many configuration options.\n\nNote that both objects/resources in our above model will have a unique identifier, which is the integer id property.\n\n\nCreate Model URIs\nNow when object model is ready, it’s time to decide the resource URIs. At this step, while designing the resource URIs – focus on the relationship between resources and its sub-resources. These resource URIs are endpoints for RESTful services.\n\nIn our application, a device is a top-level resource. And configuration is sub-resource under device. Let’s write down the URIs.",
+      "id": 7
+    }
+  ]
+}
